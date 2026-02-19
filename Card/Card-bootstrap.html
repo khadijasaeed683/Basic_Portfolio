@@ -1,0 +1,40 @@
+<!-- File: index-bootstrap.html (Bootstrap utility classes version) -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Profile Card — Bootstrap Utilities</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* small helper to limit card width */
+    .card-width{max-width:360px;}
+    .avatar-size{width:120px;height:120px;object-fit:cover;border-radius:50%;}
+  </style>
+</head>
+<body class="d-flex align-items-center justify-content-center vh-100 bg-light">
+  <div class="card card-width shadow-sm border-0 p-4 text-center">
+    <img src="Images/PFP.png" alt="Avatar" class="avatar-size mx-auto mb-3 border border-3 bg-white">
+    <h2 class="h5 mb-0">Khadija Saeed</h2>
+    <p class="text-muted mb-3 small">Graphic Designer • Frontend Enthusiast</p>
+
+    <div class="d-flex justify-content-center gap-2 flex-wrap mb-3">
+      <span class="border rounded-pill py-1 px-3 small">UI / UX</span>
+      <span class="border rounded-pill py-1 px-3 small">Canva • Adobe</span>
+      <span class="border rounded-pill py-1 px-3 small">PyQt5 • HTML/CSS</span>
+      <span class="border rounded-pill py-1 px-3 small">Python • AI/ML</span>
+    </div>
+
+    <div class="d-flex justify-content-center gap-2 flex-wrap">
+      <a href="mailto:khadija@example.com" class="btn btn-outline-info">Email</a>
+      <a href="#" class="btn btn-info text-white">Portfolio</a>
+    </div>
+
+    <p class="text-muted small mt-3 mb-0">Based in Lahore • Open to freelance & collaborations</p>
+  </div>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
